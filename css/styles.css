@@ -10,6 +10,7 @@ body{
     color: #333;
     font-family: Roboto, sans-serif;
 }
+
 div{
     display: flex;
     flex-direction: row;
@@ -92,7 +93,12 @@ input{
 }
 
 /*Videos*/
-#video{
+#video-title{
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem .5rem;
+}
+#video #video-title{
     margin: 0;
 }
 .video-btn-box{
@@ -134,14 +140,23 @@ input{
 }
 .comment-img{
     flex-direction: column;
-}
+    
 
+}
+.img-size{
+    height: 3rem;
+}
 .img-round{
     border-radius: 50px;
+
 }
 .comment-text{
     flex-direction: column;
     flex-basis: 75%;
     align-items: flex-start;
     padding: 0 10px;
+}
+textarea{
+    height: 4em;
+    width: 100%;
 }
