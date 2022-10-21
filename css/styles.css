@@ -19,6 +19,7 @@ div{
     align-content: center;
 
 }
+
 /*LOGO*/
 
 #youtube-logo{
@@ -122,4 +123,25 @@ input{
     background-color: #ddd;
     color: #444;
     font-size: .9em;
+}
+
+/*COMMENTS*/
+.comment-box{
+    width: 100%;
+    margin: 10px 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.comment-img{
+    flex-direction: column;
+}
+
+.img-round{
+    border-radius: 50px;
+}
+.comment-text{
+    flex-direction: column;
+    flex-basis: 75%;
+    align-items: flex-start;
+    padding: 0 10px;
 }
