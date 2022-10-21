@@ -160,3 +160,34 @@ textarea{
     height: 4em;
     width: 100%;
 }
+
+/*SIDEBAR*/
+.thumbnail{
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.thumbnail>a{
+    color: #333;
+    text-decoration: none;
+}
+.thumbnail-img{
+    flex-direction: column;
+    flex-basis: 25%;
+    height: 10rem;
+    margin: 0 0 1rem;
+}
+.sidebar-text{
+    flex-direction: column;
+    flex-basis: 70%;
+    align-items: flex-start;
+    margin: 0 0 1rem;
+}
+.title{
+    margin: 1px;
+}
+.video-info{
+    font-size: .9em;
+    color: #777;
+    margin: .5rem 0 0;
+}
