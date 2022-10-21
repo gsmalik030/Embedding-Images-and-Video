@@ -71,3 +71,20 @@ input{
     float: right;
     margin-right: 2rem;
 }
+/*HEADER*/
+.header-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 70em;
+    padding: .8rem .5rem;
+}
+.header-section{
+    margin: 0 0 1.5rem;
+    box-shadow: 0 1px 1px #eee;
+    position: sticky;
+    background-color: #fff;
+}
