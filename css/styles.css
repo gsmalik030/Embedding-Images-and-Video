@@ -98,6 +98,8 @@ input{
     justify-content: flex-start;
     margin: 1rem 0;
     border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    margin: 10px 0 0;
 }
 .video-views-btn{
     flex-basis: 75%;
@@ -108,4 +110,16 @@ input{
 .video-btn{
     margin: 0 1rem 0 0;
     color: var(--color-btn);
+}
+.video-subscribe-box{
+    align-content: center;
+    justify-content: space-between;
+    margin: 10px 0 0;
+}
+.video-btn, video-subscribe-btn{
+    height: 4rem;
+    padding: 0 10px;
+    background-color: #ddd;
+    color: #444;
+    font-size: .9em;
 }
